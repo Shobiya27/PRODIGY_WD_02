@@ -1,0 +1,38 @@
+body
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #008000;
+    margin: 0;
+    font-family: Times New Roman;
+}
+
+stopwatch {
+    background: #fff
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+buttons button:active {
+    background-color: #0056b3;
+}
